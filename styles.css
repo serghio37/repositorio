@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradiente de fondo */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #ff0081, #ff8c00); /* Gradiente de texto */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
